@@ -2,17 +2,15 @@ user_in = input('Please enter a physical constant:')
 
 def physconst(user_in):
     if user_in == 'speed of light':
-        c=2.9979245e8
-        print(c)
-        CC= physconst(c)
-        Return
+        print('2.99792458e8')
+
     if user_in == 'Plancks Constant':
         print('6.62606896e−34')      
 
     if user_in == 'Boltzmanns Constant':
         print('1.3806504e−23')
 
-    if user_in == 'Electon Mass':
+    if user_in == 'Electron Mass':
         print('9.10938215e−31')
 
     if user_in == 'Atomic Mass Unit':
@@ -29,3 +27,4 @@ def physconst(user_in):
 
     if user_in == 'Stefan-Boltzmann Constant':
         print('2.9979245e8')
+physconst(user_in)
