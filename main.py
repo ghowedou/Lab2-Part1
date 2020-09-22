@@ -1,6 +1,13 @@
 user_in = input('Please enter a physical constant:').lower()
 
 def physconst(user_in):
+
+    """ Returns the numerical value for constants. 
+
+    user_in = input('their chosen physical constant')
+
+    returned is constant"""
+
     if user_in == 'speed of light':
         print('2.99792458e8')
 
